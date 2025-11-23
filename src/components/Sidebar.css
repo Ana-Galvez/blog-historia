@@ -16,12 +16,37 @@
   box-sizing: border-box;
 }
 
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
+
 .sidebar-header h2 {
   margin: 0;
   padding: 15px 0;
   font-family: 'Cinzel', serif;
   color: #f1c40f;
   border-bottom: none;
+  font-size: 1.5rem;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #ecf0f1;
+  transition: all 0.3s ease;
 }
 
 .sidebar-nav ul {
@@ -50,4 +75,45 @@
 .sidebar-nav a:hover {
   background-color: #34495e;
   color: #f1c40f;
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    height: auto;
+  }
+
+  .sidebar-header {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .sidebar-nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    position: static; /* Changed from absolute */
+    box-shadow: none; /* Optional: remove shadow if it looks weird inline */
+    padding-bottom: 10px;
+  }
+
+  .sidebar-nav.active {
+    display: flex;
+  }
+
+  .sidebar-nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sidebar-nav li {
+    margin-left: 0;
+    margin-bottom: -5px;
+    text-align: center;
+  }
 }

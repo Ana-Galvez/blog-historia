@@ -1,15 +1,20 @@
+import React from 'react';
+import EraPage from '../components/EraPage';
+
 const EdadContemporanea = () => {
+  const items = [
+    "Guerras Mundiales",
+    "Guerra Fría",
+    "Globalización",
+    "Era Digital"
+  ];
+
   return (
-    <div className="page-content">
-      <h1>Edad Contemporánea</h1>
-      <p>La Edad Contemporánea comprende desde la Revolución Francesa hasta por ahora la actualidad.</p>
-      <ul>
-        <li>Guerras Mundiales</li>
-        <li>Guerra Fría</li>
-        <li>Globalización</li>
-        <li>Era Digital</li>
-      </ul>
-    </div>
+    <EraPage
+      title="Edad Contemporánea"
+      description="La Edad Contemporánea comprende desde la Revolución Francesa hasta por ahora la actualidad."
+      items={items}
+    />
   );
 };
 

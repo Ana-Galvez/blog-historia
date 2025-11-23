@@ -1,15 +1,20 @@
+import React from 'react';
+import EraPage from '../components/EraPage';
+
 const EdadModerna = () => {
+  const items = [
+    "El Renacimiento",
+    "La Ilustración",
+    "La Revolución Francesa",
+    "La Revolución Industrial"
+  ];
+
   return (
-    <div className="page-content">
-      <h1>Edad Moderna</h1>
-      <p>La Edad Moderna comprende desde la caída del Imperio Bizantino en 1453 hasta 1789 con la Revolución Francesa.</p>
-      <ul>
-        <li>El Renacimiento</li>
-        <li>La Ilustración</li>
-        <li>La Revolución Francesa</li>
-        <li>La Revolución Industrial</li>
-      </ul>
-    </div>
+    <EraPage
+      title="Edad Moderna"
+      description="La Edad Moderna comprende desde la caída del Imperio Bizantino en 1453 hasta 1789 con la Revolución Francesa."
+      items={items}
+    />
   );
 };
 
