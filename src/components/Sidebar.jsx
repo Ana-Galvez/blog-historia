@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Sidebar.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Sidebar.css";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,22 +19,32 @@ const Sidebar = () => {
           <span className="bar"></span>
         </button>
       </div>
-      <nav className={`sidebar-nav ${isOpen ? 'active' : ''}`}>
+      <nav className={`sidebar-nav ${isOpen ? "active" : ""}`}>
         <ul>
           <li>
-            <Link to="/" onClick={() => setIsOpen(false)}>Inicio</Link>
+            <Link to="/" onClick={() => setIsOpen(false)}>
+              Inicio
+            </Link>
           </li>
           <li>
-            <Link to="/edad-antigua" onClick={() => setIsOpen(false)}>Edad Antigua</Link>
+            <Link to="/edad-antigua" onClick={() => setIsOpen(false)}>
+              Edad Antigua
+            </Link>
           </li>
           <li>
-            <Link to="/edad-media" onClick={() => setIsOpen(false)}>Edad Media</Link>
+            <Link to="/edad-media" onClick={() => setIsOpen(false)}>
+              Edad Media
+            </Link>
           </li>
           <li>
-            <Link to="/edad-moderna" onClick={() => setIsOpen(false)}>Edad Moderna</Link>
+            <Link to="/edad-moderna" onClick={() => setIsOpen(false)}>
+              Edad Moderna
+            </Link>
           </li>
           <li>
-            <Link to="/edad-contemporanea" onClick={() => setIsOpen(false)}>Edad Contemporánea</Link>
+            <Link to="/edad-contemporanea" onClick={() => setIsOpen(false)}>
+              Edad Contemporánea
+            </Link>
           </li>
         </ul>
       </nav>

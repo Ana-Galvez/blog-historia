@@ -1,12 +1,12 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Home from './pages/Home';
-import EdadAntigua from './pages/EdadAntigua';
-import EdadMedia from './pages/EdadMedia';
-import EdadModerna from './pages/EdadModerna';
-import EdadContemporanea from './pages/EdadContemporanea';
-import GuillermoDeTiro from './pages/GuillermoDeTiro';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import EdadAntigua from "./pages/EdadAntigua";
+import EdadMedia from "./pages/EdadMedia";
+import EdadModerna from "./pages/EdadModerna";
+import EdadContemporanea from "./pages/EdadContemporanea";
+import GuillermoDeTiro from "./pages/GuillermoDeTiro";
+import "./App.css";
 
 function App() {
   return (
