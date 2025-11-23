@@ -5,6 +5,7 @@ import EdadAntigua from './pages/EdadAntigua';
 import EdadMedia from './pages/EdadMedia';
 import EdadModerna from './pages/EdadModerna';
 import EdadContemporanea from './pages/EdadContemporanea';
+import GuillermoDeTiro from './pages/GuillermoDeTiro';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="edad-media" element={<EdadMedia />} />
           <Route path="edad-moderna" element={<EdadModerna />} />
           <Route path="edad-contemporanea" element={<EdadContemporanea />} />
+          <Route path="guillermo-de-tiro" element={<GuillermoDeTiro />} />
         </Route>
       </Routes>
     </BrowserRouter>

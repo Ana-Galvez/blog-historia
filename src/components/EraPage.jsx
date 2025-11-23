@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import './EraPage.css';
 
 const EraPage = ({ title, description, items }) => {
@@ -17,7 +18,7 @@ const EraPage = ({ title, description, items }) => {
     const normalizedSearch = normalizeText(searchTerm);
 
     return items.filter((item) =>
-      normalizeText(item).startsWith(normalizedSearch)
+      normalizeText(item.name).startsWith(normalizedSearch)
     );
   }, [items, searchTerm]);
 
@@ -39,7 +40,13 @@ const EraPage = ({ title, description, items }) => {
       <ul>
         {filteredItems.length > 0 ? (
           filteredItems.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>
+              {item.path ? (
+                <Link to={item.path}>{item.name}</Link>
+              ) : (
+                item.name
+              )}
+            </li>
           ))
         ) : (
           <li>No se encontraron resultados</li>

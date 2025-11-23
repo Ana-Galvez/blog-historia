@@ -1,12 +1,11 @@
-import React from 'react';
 import EraPage from '../components/EraPage';
 
 const EdadAntigua = () => {
   const items = [
-    "Mesopotamia",
-    "Egipto",
-    "Grecia",
-    "Roma"
+    { name: "Mesopotamia", path: null },
+    { name: "Egipto", path: null },
+    { name: "Grecia", path: null },
+    { name: "Roma", path: null }
   ];
 
   return (

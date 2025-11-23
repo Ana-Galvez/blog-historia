@@ -1,12 +1,11 @@
-import React from 'react';
 import EraPage from '../components/EraPage';
 
 const EdadContemporanea = () => {
   const items = [
-    "Guerras Mundiales",
-    "Guerra Fría",
-    "Globalización",
-    "Era Digital"
+    { name: "Guerras Mundiales", path: null },
+    { name: "Guerra Fría", path: null },
+    { name: "Globalización", path: null },
+    { name: "Era Digital", path: null }
   ];
 
   return (

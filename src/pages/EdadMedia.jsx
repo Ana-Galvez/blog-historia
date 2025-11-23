@@ -1,12 +1,12 @@
-import React from 'react';
 import EraPage from '../components/EraPage';
 
 const EdadMedia = () => {
   const items = [
-    "Alta Edad Media",
-    "Baja Edad Media",
-    "Feudalismo",
-    "Las Cruzadas"
+    { name: "Alta Edad Media", path: null },
+    { name: "Baja Edad Media", path: null },
+    { name: "Feudalismo", path: null },
+    { name: "Las Cruzadas", path: null },
+    { name: "Guillermo de Tiro", path: "/guillermo-de-tiro" }
   ];
 
   return (

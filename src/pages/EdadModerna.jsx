@@ -1,12 +1,11 @@
-import React from 'react';
 import EraPage from '../components/EraPage';
 
 const EdadModerna = () => {
   const items = [
-    "El Renacimiento",
-    "La Ilustración",
-    "La Revolución Francesa",
-    "La Revolución Industrial"
+    { name: "El Renacimiento", path: null },
+    { name: "La Ilustración", path: null },
+    { name: "La Revolución Francesa", path: null },
+    { name: "La Revolución Industrial", path: null }
   ];
 
   return (
