@@ -7,21 +7,24 @@ import EdadModerna from "./pages/EdadModerna";
 import EdadContemporanea from "./pages/EdadContemporanea";
 import GuillermoDeTiro from "./pages/GuillermoDeTiro";
 import "./App.css";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="edad-antigua" element={<EdadAntigua />} />
-          <Route path="edad-media" element={<EdadMedia />} />
-          <Route path="edad-moderna" element={<EdadModerna />} />
-          <Route path="edad-contemporanea" element={<EdadContemporanea />} />
-          <Route path="guillermo-de-tiro" element={<GuillermoDeTiro />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="edad-antigua" element={<EdadAntigua />} />
+            <Route path="edad-media" element={<EdadMedia />} />
+            <Route path="edad-moderna" element={<EdadModerna />} />
+            <Route path="edad-contemporanea" element={<EdadContemporanea />} />
+            <Route path="guillermo-de-tiro" element={<GuillermoDeTiro />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 

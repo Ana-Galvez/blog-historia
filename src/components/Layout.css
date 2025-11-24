@@ -13,6 +13,12 @@
   box-sizing: border-box;
   background-color: #fdfbf7;
   color: #2c3e50;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark .main-content {
+  background-color: #1a1a1a;
+  color: #fdfbf7;
 }
 
 @media (max-width: 700px) {

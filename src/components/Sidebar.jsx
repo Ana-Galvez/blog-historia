@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { useTheme } from "../context/ThemeContext";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
+import modoOscuro from "../assets/modo-oscuro.png";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { toggleTheme } = useTheme();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -13,6 +16,17 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="sidebar-header">
         <h2>Minibiografías Históricas</h2>
+        <img
+          src={modoOscuro}
+          alt="Modo Oscuro"
+          style={{
+            width: "70px",
+            height: "70px",
+            marginLeft: "50px",
+            cursor: "pointer",
+          }}
+          onClick={toggleTheme}
+        />
         <button className="hamburger" onClick={toggleMenu}>
           <span className="bar"></span>
           <span className="bar"></span>
