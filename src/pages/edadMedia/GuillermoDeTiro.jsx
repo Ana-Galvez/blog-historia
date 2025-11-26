@@ -1,6 +1,6 @@
-import guillermoImg from "../../assets/edadMedia/guillermo-de-tiro.jpg";
-import guillermoImg2 from "../../assets/edadMedia/guillermo-de-tiro-personaje.jpg";
-import conBalduinoImg from "../../assets/edadMedia/con-balduino.jpg";  
+import guillermoImg from "../../assets/guillermo-de-tiro.jpg";
+import guillermoImg2 from "../../assets/guillermo-de-tiro-personaje.jpg";
+import conBalduinoImg from "../../assets/con-balduino.jpg";
 
 const GuillermoDeTiro = () => {
   return (
@@ -113,13 +113,64 @@ const GuillermoDeTiro = () => {
         una alianza con el Imperio Bizantino (bajo el emperador Manuel I
         Comneno) para resistir el creciente poder de Saladino. Viajó a
         Constantinopla varias veces para negociar tratados.
-        <p>La piedra angular de la visión geopolítica de Guillermo de Tiro fue lo que podríamos llamar la "Opción Bizantina". Mientras muchos barones cruzados desconfiaban de los griegos (por diferencias religiosas y culturales), Guillermo entendió que el Reino de Jerusalén no podía sobrevivir solo con su ejército de tierra; necesitaba el poder naval y el oro de Constantinopla. Su relación con el emperador Manuel I Comneno fue crucial en este aspecto:
+        <p>
+          La piedra angular de la visión geopolítica de Guillermo de Tiro fue lo
+          que podríamos llamar la "Opción Bizantina". Mientras muchos barones
+          cruzados desconfiaban de los griegos (por diferencias religiosas y
+          culturales), Guillermo entendió que el Reino de Jerusalén no podía
+          sobrevivir solo con su ejército de tierra; necesitaba el poder naval y
+          el oro de Constantinopla. Su relación con el emperador Manuel I
+          Comneno fue crucial en este aspecto:
           <ol>
-            <li>El Enviado de Confianza (1168):La primera gran misión diplomática de Guillermo ocurrió antes del reinado de Balduino IV, bajo el rey Amalarico. Fue enviado a Constantinopla en 1168 con un objetivo vital: cerrar el tratado para una invasión conjunta de Egipto. Guillermo negoció los términos finales: el Emperador Manuel pondría la flota imperial (imprescindible para bloquear el Nilo) y el Reino de Jerusalén pondría el ejército de tierra. Aunque la invasión conjunta (en 1169) fracasó por falta de coordinación, Guillermo logró establecer un canal de comunicación directo y respetuoso con la corte imperial, algo que mantendría toda su vida.</li>
-            <li>Una Amistad Intelectual: A diferencia de los rudos caballeros francos que veían a los bizantinos como "afeminados" o traidores, Guillermo, siendo un intelectual, quedó fascinado por la cultura de la corte de Manuel. El Emperador Manuel, que se veía a sí mismo como el protector de los Santos Lugares, respetaba profundamente la erudición de Guillermo. En sus crónicas, Guillermo describe a Manuel con una admiración inusual para un escritor latino, destacando su generosidad, su estatura física y su habilidad como jinete, pintándolo casi como el monarca ideal.</li>
-            <li>La Larga Estancia de 1180: El momento culminante de esta relación ocurrió cuando Guillermo regresaba del Concilio de Letrán (en Roma) en 1180. En lugar de volver directo a Jerusalén, se detuvo en Constantinopla y permaneció allí siete meses como invitado de honor del Emperador. Durante este tiempo, fue testigo de la boda de la hija del emperador, María, con Renier de Montferrat (un noble occidental), un evento que Guillermo celebró como la unión perfecta entre Oriente y Occidente que él siempre había promovido. Funcionó como enlace informal, tratando de asegurar que el apoyo bizantino a Balduino IV (el Rey Leproso) continuara a pesar de la enfermedad del rey.</li>
-            <li>El Colapso de la Estrategia: La tragedia política de Guillermo fue la muerte del Emperador Manuel en septiembre de 1180. Con Manuel murió el principal aliado externo de Guillermo. El imperio cayó en el caos con sucesores que odiaban a los latinos (lo que culminó en la masacre de latinos en Constantinopla poco después). Guillermo lamentó amargamente esta muerte en su Historia, escribiendo que con la desaparición de Manuel, "toda nuestra esperanza colapsó". Sabía que sin el escudo bizantino, Saladino tendría las manos libres para cercar Jerusalén, tal como sucedió.</li>
-        </ol>
+            <li>
+              El Enviado de Confianza (1168):La primera gran misión diplomática
+              de Guillermo ocurrió antes del reinado de Balduino IV, bajo el rey
+              Amalarico. Fue enviado a Constantinopla en 1168 con un objetivo
+              vital: cerrar el tratado para una invasión conjunta de Egipto.
+              Guillermo negoció los términos finales: el Emperador Manuel
+              pondría la flota imperial (imprescindible para bloquear el Nilo) y
+              el Reino de Jerusalén pondría el ejército de tierra. Aunque la
+              invasión conjunta (en 1169) fracasó por falta de coordinación,
+              Guillermo logró establecer un canal de comunicación directo y
+              respetuoso con la corte imperial, algo que mantendría toda su
+              vida.
+            </li>
+            <li>
+              Una Amistad Intelectual: A diferencia de los rudos caballeros
+              francos que veían a los bizantinos como "afeminados" o traidores,
+              Guillermo, siendo un intelectual, quedó fascinado por la cultura
+              de la corte de Manuel. El Emperador Manuel, que se veía a sí mismo
+              como el protector de los Santos Lugares, respetaba profundamente
+              la erudición de Guillermo. En sus crónicas, Guillermo describe a
+              Manuel con una admiración inusual para un escritor latino,
+              destacando su generosidad, su estatura física y su habilidad como
+              jinete, pintándolo casi como el monarca ideal.
+            </li>
+            <li>
+              La Larga Estancia de 1180: El momento culminante de esta relación
+              ocurrió cuando Guillermo regresaba del Concilio de Letrán (en
+              Roma) en 1180. En lugar de volver directo a Jerusalén, se detuvo
+              en Constantinopla y permaneció allí siete meses como invitado de
+              honor del Emperador. Durante este tiempo, fue testigo de la boda
+              de la hija del emperador, María, con Renier de Montferrat (un
+              noble occidental), un evento que Guillermo celebró como la unión
+              perfecta entre Oriente y Occidente que él siempre había promovido.
+              Funcionó como enlace informal, tratando de asegurar que el apoyo
+              bizantino a Balduino IV (el Rey Leproso) continuara a pesar de la
+              enfermedad del rey.
+            </li>
+            <li>
+              El Colapso de la Estrategia: La tragedia política de Guillermo fue
+              la muerte del Emperador Manuel en septiembre de 1180. Con Manuel
+              murió el principal aliado externo de Guillermo. El imperio cayó en
+              el caos con sucesores que odiaban a los latinos (lo que culminó en
+              la masacre de latinos en Constantinopla poco después). Guillermo
+              lamentó amargamente esta muerte en su Historia, escribiendo que
+              con la desaparición de Manuel, "toda nuestra esperanza colapsó".
+              Sabía que sin el escudo bizantino, Saladino tendría las manos
+              libres para cercar Jerusalén, tal como sucedió.
+            </li>
+          </ol>
         </p>
       </li>
 
@@ -193,7 +244,13 @@ const GuillermoDeTiro = () => {
         cristiano en la Batalla de los Cuernos de Hattin (1187) y Jerusalén
         cayó.
       </p>
-      <p>Guillermo no fue un simple espectador. Fue el hombre que intentó salvar el reino mediante la diplomacia y la educación de un rey enfermo. Su tragedia personal fue ver cómo, a pesar de sus esfuerzos y los de su alumno Balduino IV, el reino se desmoronaba por las ambiciones internas justo antes de morir.</p>
+      <p>
+        Guillermo no fue un simple espectador. Fue el hombre que intentó salvar
+        el reino mediante la diplomacia y la educación de un rey enfermo. Su
+        tragedia personal fue ver cómo, a pesar de sus esfuerzos y los de su
+        alumno Balduino IV, el reino se desmoronaba por las ambiciones internas
+        justo antes de morir.
+      </p>
     </div>
   );
 };
