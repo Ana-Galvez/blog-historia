@@ -1,6 +1,6 @@
-import guillermoImg from "../assets/guillermo-de-tiro.jpg";
-import guillermoImg2 from "../assets/guillermo-de-tiro-personaje.jpg";
-import conBalduinoImg from "../assets/con-balduino.jpg";  
+import guillermoImg from "../../assets/edadMedia/guillermo-de-tiro.jpg";
+import guillermoImg2 from "../../assets/edadMedia/guillermo-de-tiro-personaje.jpg";
+import conBalduinoImg from "../../assets/edadMedia/con-balduino.jpg";  
 
 const GuillermoDeTiro = () => {
   return (
@@ -119,7 +119,7 @@ const GuillermoDeTiro = () => {
             <li>Una Amistad Intelectual: A diferencia de los rudos caballeros francos que veían a los bizantinos como "afeminados" o traidores, Guillermo, siendo un intelectual, quedó fascinado por la cultura de la corte de Manuel. El Emperador Manuel, que se veía a sí mismo como el protector de los Santos Lugares, respetaba profundamente la erudición de Guillermo. En sus crónicas, Guillermo describe a Manuel con una admiración inusual para un escritor latino, destacando su generosidad, su estatura física y su habilidad como jinete, pintándolo casi como el monarca ideal.</li>
             <li>La Larga Estancia de 1180: El momento culminante de esta relación ocurrió cuando Guillermo regresaba del Concilio de Letrán (en Roma) en 1180. En lugar de volver directo a Jerusalén, se detuvo en Constantinopla y permaneció allí siete meses como invitado de honor del Emperador. Durante este tiempo, fue testigo de la boda de la hija del emperador, María, con Renier de Montferrat (un noble occidental), un evento que Guillermo celebró como la unión perfecta entre Oriente y Occidente que él siempre había promovido. Funcionó como enlace informal, tratando de asegurar que el apoyo bizantino a Balduino IV (el Rey Leproso) continuara a pesar de la enfermedad del rey.</li>
             <li>El Colapso de la Estrategia: La tragedia política de Guillermo fue la muerte del Emperador Manuel en septiembre de 1180. Con Manuel murió el principal aliado externo de Guillermo. El imperio cayó en el caos con sucesores que odiaban a los latinos (lo que culminó en la masacre de latinos en Constantinopla poco después). Guillermo lamentó amargamente esta muerte en su Historia, escribiendo que con la desaparición de Manuel, "toda nuestra esperanza colapsó". Sabía que sin el escudo bizantino, Saladino tendría las manos libres para cercar Jerusalén, tal como sucedió.</li>
-          </ol>
+        </ol>
         </p>
       </li>
 

@@ -5,7 +5,8 @@ import EdadAntigua from "./pages/EdadAntigua";
 import EdadMedia from "./pages/EdadMedia";
 import EdadModerna from "./pages/EdadModerna";
 import EdadContemporanea from "./pages/EdadContemporanea";
-import GuillermoDeTiro from "./pages/GuillermoDeTiro";
+import GuillermoDeTiro from "./pages/edadMedia/GuillermoDeTiro";
+import Ertugrul from "./pages/edadMedia/Ertugrul";
 import "./App.css";
 import { ThemeProvider } from "./context/ThemeContext";
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="edad-moderna" element={<EdadModerna />} />
             <Route path="edad-contemporanea" element={<EdadContemporanea />} />
             <Route path="guillermo-de-tiro" element={<GuillermoDeTiro />} />
+            <Route path="ertugrul-gazi" element={<Ertugrul />} />
           </Route>
         </Routes>
       </BrowserRouter>

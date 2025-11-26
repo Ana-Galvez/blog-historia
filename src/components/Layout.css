@@ -11,9 +11,9 @@
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
+  text-align: justify;
   background-color: #fdfbf7;
   color: #2c3e50;
-  transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark .main-content {
