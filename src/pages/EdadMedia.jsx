@@ -3,7 +3,8 @@ import EraPage from '../components/EraPage';
 const EdadMedia = () => {
   const items = [
     { name: "Guillermo de Tiro", path: "/guillermo-de-tiro" },
-    { name: "Ertugrul Gazi", path: "/ertugrul-gazi" }
+    { name: "Ertugrul Gazi", path: "/ertugrul-gazi" },
+    { name: "Halime Hatun (Esposa de Ertugrul Gazi)", path: "/halime-hatun-ertugrul" }
   ];
 
   return (
