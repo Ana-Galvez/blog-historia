@@ -96,7 +96,7 @@ const Ertugrul = () => {
       </p>
       <p>
         Dato Curioso (Ficción vs. Realidad) Es probable que conozcas a Ertuğrul
-        por la famosa serie de televisión "Diriliş: Ertuğrul". Aunque la serie
+        por la famosa serie de televisión "Diriliş: Ertuğrul". El actor que interpreta a Ertuğrul es el actor veterano Engin Altan Duzyatan. Aunque la serie
         captura el espíritu de su lucha y los valores islámicos/turcos, gran
         parte de los dramas personales, villanos específicos y tramas amorosas
         son ficciones añadidas para la televisión, ya que existen muy pocos

@@ -251,6 +251,7 @@ const GuillermoDeTiro = () => {
         alumno Balduino IV, el reino se desmoronaba por las ambiciones internas
         justo antes de morir.
       </p>
+      <p>Guillermo de Tiro fue representado en la serie de televisión Kudüs Fatihi Selahaddin Eyyubi por Hakan Yufkacıgil</p>
     </div>
   );
 };

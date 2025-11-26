@@ -8,6 +8,7 @@ import EdadContemporanea from "./pages/EdadContemporanea";
 import GuillermoDeTiro from "./pages/edadMedia/GuillermoDeTiro";
 import Ertugrul from "./pages/edadMedia/Ertugrul";
 import HalimeHatunErtugrul from "./pages/edadMedia/HalimeHatunErtugrul";
+import HaymeErtugrul from "./pages/edadMedia/HaymeErtugrul";
 import "./App.css";
 import { ThemeProvider } from "./context/ThemeContext";
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="guillermo-de-tiro" element={<GuillermoDeTiro />} />
             <Route path="ertugrul-gazi" element={<Ertugrul />} />
             <Route path="halime-hatun-ertugrul" element={<HalimeHatunErtugrul />} />
+            <Route path="hayme-ertugrul" element={<HaymeErtugrul />} />
           </Route>
         </Routes>
       </BrowserRouter>
