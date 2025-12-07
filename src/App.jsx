@@ -11,6 +11,7 @@ import Ertugrul from "./pages/edadMedia/Ertugrul";
 import HalimeHatunErtugrul from "./pages/edadMedia/HalimeHatunErtugrul";
 import HaymeErtugrul from "./pages/edadMedia/HaymeErtugrul";
 import SuleymanSha from "./pages/edadMedia/SuleymanSha";
+import GundogduErtugrul from "./pages/edadMedia/GundogduErtugrul";
 import "./App.css";
 import { ThemeProvider } from "./context/ThemeContext";
 
@@ -34,6 +35,7 @@ function App() {
             />
             <Route path="hayme-ertugrul" element={<HaymeErtugrul />} />
             <Route path="suleyman-sha" element={<SuleymanSha />} />
+            <Route path="gundogdu-ertugrul" element={<GundogduErtugrul />} />
           </Route>
         </Routes>
       </BrowserRouter>

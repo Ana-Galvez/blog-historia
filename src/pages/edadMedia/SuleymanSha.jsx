@@ -73,7 +73,7 @@ const SuleymanSha = () => {
       </p>
       <p>
         Juntos tuvieron cuatro hijos varones conocidos, cuyos destinos
-        dividieron a la tribu: Gündoğdu Bey: El mayor. Sungurtekin Bey: Se dice
+        dividieron a la tribu: <Link to="/gundogdu-ertugrul">Gündoğdu Bey</Link>: El mayor. Sungurtekin Bey: Se dice
         que sirvió como espía o soldado para los selyúcidas.{" "}
         <Link to="/ertugrul-gazi">Ertuğrul Gazi</Link>: El padre de Osman I y
         quien continuaría el legado hacia la fundación del imperio. Dündar Bey:
