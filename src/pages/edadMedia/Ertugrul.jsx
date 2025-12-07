@@ -1,5 +1,6 @@
 import ErtugrulImg from "../../assets/Ertugrul-gazi-1.jpg";
 import ErtugrulImg2 from "../../assets/ertugrul.jpg";
+import { Link } from "react-router-dom";
 
 const Ertugrul = () => {
   return (
@@ -38,10 +39,10 @@ const Ertugrul = () => {
         Ertuğrul nació aproximadamente en 1206 y pertenecía a la tribu Kayı, una
         de las ramas de los turcos Oghuz. Según la tradición otomana, los Kayı
         eran una tribu noble y guerrera. La tradición popular dice que su padre
-        fue Suleyman Shah, quien murió ahogado cruzando el río Éufrates. Pero
+        fue <Link to="/suleyman-sha">Suleyman Shah</Link>, quien murió ahogado cruzando el río Éufrates. Pero
         las evidencias numismáticas (monedas encontradas de la época de Osman)
         sugieren que el verdadero padre de Ertuğrul se llamaba Gündüz Alp. Es
-        ampliamente aceptado que su madre fue Hayme Ana (Madre Hayme), una
+        ampliamente aceptado que su madre fue <Link to="/hayme-ertugrul">Hayme Ana</Link> (Madre Hayme), una
         figura matriarcal muy respetada que mantuvo unida a la tribu en tiempos
         difíciles.
       </p>
@@ -65,7 +66,7 @@ const Ertugrul = () => {
       </p>
       <p>
         La familia de Ertuğrul es central en su historia, ya que aseguró la
-        continuidad de la dinastía. Se casó con Halime Hatun. En la tradición
+        continuidad de la dinastía. Se casó con <Link to="/halime-hatun-ertugrul">Halime Hatun</Link>. En la tradición
         romántica, ella es descrita a menudo como una princesa selyúcida, aunque
         los registros históricos son escasos. Fue la madre de sus hijos y su
         compañera leal. Ertuğrul tuvo tres hijos conocidos (algunas fuentes
