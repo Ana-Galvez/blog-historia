@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const GundogduErtugrul = () => {
   return (
     <div className="page-content">
-      <h1>Gündoğdu Ertugrul (Hermano de Ertugrul Gazi)</h1>
+      <h1>Gündoğdu (Hermano de Ertugrul Gazi)</h1>
       <img
         src={GundogduErtugrulImg}
         alt="Gündoğdu Ertugrul"

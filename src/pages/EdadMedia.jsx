@@ -8,7 +8,8 @@ const EdadMedia = () => {
     { name: "Hayme Hatun (Madre de Ertugrul Gazi)", path: "/hayme-ertugrul" },
     { name: "Suleyman Shah (Padre de Ertugrul Gazi)", path: "/suleyman-sha" },
     { name: "Gündoğdu Ertugrul (Hermano de Ertugrul Gazi)", path: "/gundogdu-ertugrul" },
-    { name: "Dündar Ertugrul (Hermano de Ertugrul Gazi)", path: "/dundar-ertugrul" }
+    { name: "Dündar Ertugrul (Hermano de Ertugrul Gazi)", path: "/dundar-ertugrul" },
+    { name: "Sungurtekin Ertugrul (Hermano de Ertugrul Gazi)", path: "/sungurtekin-ertugrul" }
   ];
 
   return (

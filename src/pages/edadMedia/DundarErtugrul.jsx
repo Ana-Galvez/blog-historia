@@ -103,7 +103,8 @@ const DundarErtugrul = () => {
       </p>
       <p>
         En la serie Dirilis Ertugrul, Dündar Bey es interpretado por el actor
-        Arda Aranat y en la serie Kurulus Osman por Ragıp Savaş.
+        Batuhan Karacakaya y Arda Aranat y en la serie Kurulus Osman por Ragıp
+        Savaş.
       </p>
     </div>
   );
