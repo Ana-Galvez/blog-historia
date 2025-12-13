@@ -76,7 +76,7 @@ const SuleymanSha = () => {
         dividieron a la tribu: <Link to="/gundogdu-ertugrul">Gündoğdu Bey</Link>: El mayor. Sungurtekin Bey: Se dice
         que sirvió como espía o soldado para los selyúcidas.{" "}
         <Link to="/ertugrul-gazi">Ertuğrul Gazi</Link>: El padre de Osman I y
-        quien continuaría el legado hacia la fundación del imperio. Dündar Bey:
+        quien continuaría el legado hacia la fundación del imperio. <Link to="/dundar-ertugrul">Dündar Bey</Link>:
         El menor, quien acompañó a Ertuğrul y cuya historia termina trágicamente
         a manos de su sobrino Osman muchos años después.
       </p>
